@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Francis Zachary Domingo - Information Technology Student Portfolio showcasing projects, certifications, and skills in cybersecurity, cloud computing, and web development.">
+    <meta name="keywords" content="Francis Zachary Domingo, IT Student, Cybersecurity, Cloud Computing, Portfolio, Web Developer">
+    <meta name="author" content="Francis Zachary Domingo">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Francis Zachary Domingo - IT Portfolio">
+    <meta property="og:description" content="Cybersecurity & IT Student | QA Intern at EastWest Bank | Application Security Enthusiast">
+    <meta property="og:type" content="website">
+    
+    <title>Francis Zachary Domingo | IT Portfolio</title>
+
+    <!-- Favicon (gaming controller) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text x='50' y='55' font-size='80' text-anchor='middle' dominant-baseline='central'>🎮</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <p>Loading Portfolio...</p>
+        </div>
+    </div>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">👾</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="IMG_3965.JPG" alt="Francis Zachary Domingo">
+            </div>
+            <div class="hero-text">
+                <h1 class="hero-title">FRANCIS ZACHARY DOMINGO</h1>
+                <div class="typing-container">
+                    <p class="hero-subtitle" id="typingText"></p>
+                </div>
+                <p class="hero-location"><i class="fas fa-map-marker-alt"></i> Makati City, Metro Manila, Philippines</p>
+                <div class="hero-contact">
+                    <a href="mailto:zachdomingojavellana@gmail.com" class="hero-contact-link email-link" title="Email">
+                        <i class="fas fa-envelope"></i>
+                        <span>zachdomingojavellana@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/francis-zachary-domingo-684795321/" target="_blank" class="hero-contact-btn" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/sundaevice" target="_blank" class="hero-contact-btn" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="hero-stat-item">
+                        <span class="stat-number">1.44</span>
+                        <span class="stat-label">GWA</span>
+                    </div>
+                    <div class="hero-stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Certifications</span>
+                    </div>
+                    <div class="hero-stat-item">
+                        <span class="stat-number">4+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary"><i class="fas fa-envelope"></i> Contact Me</a>
+                    <a href="#projects" class="btn btn-secondary"><i class="fas fa-briefcase"></i> View Work</a>
+                    <a href="#about" class="btn btn-outline"><i class="fas fa-user"></i> About Me</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section fade-in">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-subtitle">Get to know more about my background, skills, and passion for technology</p>
+            <div class="about-content">
+                <div class="about-image-container">
+                    <img src="IMG_2695.jpg" alt="Francis Zachary Domingo in Japan" class="about-image">
+                </div>
+                <div class="about-text-content">
+                    <div class="about-text">
+                        <p>A Cybersecurity and Information Technology student at Mapúa University with hands-on experience in software quality assurance and testing in the banking industry. Skilled in Java, Python, PHP, JavaScript, C++, and SQL, along with security tools including Burp Suite, OWASP ZAP, Docker, MySQL, and Oracle. Backed by a strong academic standing as a consistent President's and Dean's Lister and multiple industry-recognized certifications.</p>
+                        <p>Holds credentials across cybersecurity, cloud technologies, and networking, with a strong interest in application security, vulnerability assessment, and penetration testing. A reliable, detail-oriented individual eager to contribute to real-world IT and security environments while continuously improving technical and professional skills.</p>
+                    </div>
+                    <div class="stats-grid">
+                    <div class="stat-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>1.44</h3>
+                        <p>GWA</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-certificate"></i>
+                        <h3>10+</h3>
+                        <p>Certifications</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-project-diagram"></i>
+                        <h3>4+</h3>
+                        <p>Academic Projects</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-trophy"></i>
+                        <h3>President's Lister</h3>
+                        <p>2023-2025</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section fade-in">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <p class="section-subtitle">My academic journey and achievements</p>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">August 2023 – Present</span>
+                        <h3>Mapúa University</h3>
+                        <h4>Bachelor of Science in Information Technology – Specializing in Cybersecurity</h4>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Makati City, Metro Manila</p>
+                        <p class="gwa"><strong>GWA:</strong> 1.44</p>
+                        <div class="awards">
+                            <h5>Awards and Achievements:</h5>
+                            <ul>
+                                <li><i class="fas fa-award"></i> President's Lister (2023 – 2025)</li>
+                                <li><i class="fas fa-award"></i> Consistent Dean's Lister (2023 – 2026)</li>
+                                <li><i class="fas fa-medal"></i> Academic Scholar (2023 – 2026) – Mapúa University</li>
+                            </ul>
+                            <h5>Academic Projects and Coursework:</h5>
+                            <ul>
+                                <li><i class="fas fa-laptop-code"></i> <strong>OWASP Juice Shop:</strong> Identified key vulnerabilities including SQL injection, XSS, and authentication flaws using Burp Suite and Docker on the OWASP Juice Shop platform and authored a research paper detailing mitigation strategies and security best practices.</li>
+                                <li><i class="fas fa-laptop-code"></i> <strong>Enterprise POS System:</strong> Developed an enterprise-level POS system in IntelliJ with integrated sales analytics and inventory management.</li>
+                                <li><i class="fas fa-laptop-code"></i> <strong>HomeHub AI Web Application:</strong> Built a web-based property listing and tenant management platform featuring an admin dashboard, role-based access control, and AI integrations to streamline landlord–tenant interactions.</li>
+                                <li><i class="fas fa-laptop-code"></i> <strong>Pizza Ordering System:</strong> Developed an interactive pizza ordering system in Eclipse with customizable selections, real-time pricing updates, and an easy-to-use interface.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Graduated April 2023</span>
+                        <h3>St. John's Institute</h3>
+                        <h4>Science, Technology, Engineering, and Mathematics (STEM)</h4>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Tindalo Ave, Bacolod City, Negros Occidental</p>
+                        <div class="awards">
+                            <h5>Awards and Achievements:</h5>
+                            <ul>
+                                <li><i class="fas fa-award"></i> With Honors (2021 – 2023)</li>
+                                <li><i class="fas fa-medal"></i> SJI Alumni Scholarship Program (2020 – 2023)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="leadership section fade-in">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <p class="section-subtitle">My professional experience in the industry</p>
+            <div class="leadership-card">
+                <div class="leadership-icon">
+                    <i class="fas fa-vial-circle-check"></i>
+                </div>
+                <div class="leadership-content">
+                    <h3>EastWest Bank – PBCOM Tower, Makati City</h3>
+                    <h4>Quality Assurance Intern – Solutions Delivery, Shared Testing Services (STS), IT Group</h4>
+                    <p class="leadership-date"><i class="fas fa-calendar-alt"></i> December 2025 – May 2026</p>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Makati City, Metro Manila</p>
+                    <ul class="leadership-responsibilities">
+                        <li>Supported software quality assurance for banking applications through test case creation, execution, and documentation.</li>
+                        <li>Performed functional and regression testing, logging and retesting defects in coordination with developers and QA analysts.</li>
+                        <li>Assisted in preparing test reports and documentation in compliance with the bank's testing standards.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section fade-in">
+        <div class="container">
+            <h2 class="section-title">Academic Projects</h2>
+            <p class="section-subtitle">Explore my hands-on experience with real-world applications and security research</p>
+            <div class="projects-grid">
+                <a href="https://drive.google.com/file/d/1CK8lRix8yLo6W2TLb4Q5ftkuXaGQCW7X/view?usp=sharing" target="_blank" class="project-link">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="Owasp.png" alt="OWASP Juice Shop Project">
+                        </div>
+                        <h3>OWASP Juice Shop</h3>
+                        <p>Identified key vulnerabilities including SQL injection, XSS, and authentication flaws using Burp Suite and Docker on the OWASP Juice Shop platform and authored a research paper detailing mitigation strategies and security best practices.</p>
+                        <div class="project-tags">
+                            <span class="tag">Cybersecurity</span>
+                            <span class="tag">Penetration Testing</span>
+                            <span class="tag">OWASP</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/file/d/1ar7SomdKEAns4_SuWUgghNPXipYDqCZg/view?usp=sharing" target="_blank" class="project-link">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="EnterprisePOS.png" alt="Enterprise POS System Project">
+                        </div>
+                        <h3>Enterprise POS System</h3>
+                        <p>Developed an enterprise-level POS system in IntelliJ with integrated sales analytics and inventory management.</p>
+                        <div class="project-tags">
+                            <span class="tag">Full-Stack</span>
+                            <span class="tag">System Design</span>
+                            <span class="tag">Analytics</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/FZDOMINGO/HOMEHUB-AI-.git" target="_blank" class="project-link">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="HomeHubAI.png" alt="HomeHub AI Web Application Project">
+                        </div>
+                        <h3>HomeHub AI Web Application</h3>
+                        <p>Built a web-based property listing and tenant management platform featuring an admin dashboard, role-based access control, and AI integrations to streamline landlord–tenant interactions.</p>
+                        <div class="project-tags">
+                            <span class="tag">Web Development</span>
+                            <span class="tag">AI Integration</span>
+                            <span class="tag">Dashboard</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/sundaevice/pizza_ordering_system.git" target="_blank" class="project-link">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="Pizza.png" alt="Pizza Ordering System Project">
+                        </div>
+                        <h3>Pizza Ordering System</h3>
+                        <p>Developed an interactive pizza ordering system in Eclipse with customizable selections, real-time pricing updates, and an easy-to-use interface.</p>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">UI/UX</span>
+                            <span class="tag">System Development</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications section fade-in">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <p class="section-subtitle">Industry-recognized credentials demonstrating my expertise and commitment to continuous learning</p>
+            <div class="cert-category">
+                <h3 class="cert-category-title"><i class="fas fa-cloud"></i> Oracle Certifications (November 2025)</h3>
+                <div class="cert-grid">
+                    <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=84D6A1E56432B12ED953B23A7F8F2A165A3F7230A825CF414F4D5128EAC4880C" target="_blank" class="cert-card-link">
+                        <div class="cert-card">
+                            <img src="Oracle Certificate Professional Badge_Oracle Cloud Infrastructure DevOps.png" alt="Oracle DevOps Professional" class="cert-badge">
+                            <p>Certified DevOps Professional</p>
+                        </div>
+                    </a>
+                    <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=B285A925697F24C07C49F5C80AC996D13565726E861031CF549DB994E755A283" target="_blank" class="cert-card-link">
+                        <div class="cert-card">
+                            <img src="Oracle Certificate Professional Badge_Oracle AI Vector Search.png" alt="Oracle AI Vector Search Professional" class="cert-badge">
+                            <p>AI Vector Search Professional</p>
+                        </div>
+                    </a>
+                    <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=8623214AABF39DA44094FD339677B5E0CAC9629E5A5E2D3E4E4E9676AF959E41" target="_blank" class="cert-card-link">
+                        <div class="cert-card">
+                            <img src="Oracle Certificate Professional Badge_Oracle Cloud Infrastructure Generative AI.png" alt="Oracle Generative AI Professional" class="cert-badge">
+                            <p>Generative AI Professional</p>
+                        </div>
+                    </a>
+                    <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=FBB81D99C5DF11E7670C94C6194E13254BF2F33E66CFCA6F655B4553A355E4BD" target="_blank" class="cert-card-link">
+                        <div class="cert-card">
+                            <img src="Oracle Certificate Badge_Oracle Cloud Infrastructure Foundations.png" alt="Oracle OCI Foundations Associate" class="cert-badge">
+                            <p>OCI Foundations Associate</p>
+                        </div>
+                    </a>
+                    <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=84D6A1E56432B12ED953B23A7F8F2A16DABA47E624759C66C40C3FC0D480DF8D" target="_blank" class="cert-card-link">
+                        <div class="cert-card">
+                            <img src="Oracle Certificate Badge_Oracle Data Platform Foundations.png" alt="Oracle Data Platform Associate" class="cert-badge">
+                            <p>Data Platform Associate</p>
+                        </div>
+                    </a>
+                    <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=795E94499C726500027901DA2825EB828F4B64ED600B33468DC9B935F68EB0BE" target="_blank" class="cert-card-link">
+                        <div class="cert-card">
+                            <img src="Oracle Certificate Badge_Oracle Cloud Infrastructure AI Foundations.png" alt="Oracle OCI AI Foundations Associate" class="cert-badge">
+                            <p>OCI AI Foundations Associate</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="cert-category">
+                <h3 class="cert-category-title"><i class="fas fa-star"></i> Professional Certifications</h3>
+                <div class="cert-list">
+                    <a href="Cloud Computing Certificate.pdf" target="_blank" class="cert-item-link">
+                        <div class="cert-item">
+                            <img src="Sakura Cloud Computing.png" alt="SAKURA Cloud Computing Certificate" class="cert-thumbnail">
+                            <div class="cert-info">
+                                <h4>Cloud Computing – SAKURA Cloud Hands-on Training</h4>
+                                <span class="cert-date">SAKURA internet Inc. × Mapúa University • March 2026</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="Official_Certification_Issued_Six_Sigma_White_Belt_Certification.pdf" target="_blank" class="cert-item-link">
+                        <div class="cert-item">
+                            <img src="Six Sigma.png" alt="Six Sigma White Belt" class="cert-thumbnail">
+                            <div class="cert-info">
+                                <h4>Six Sigma White Belt</h4>
+                                <span class="cert-date">October 2025</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/T6GDJLR4N025" target="_blank" class="cert-item-link">
+                        <div class="cert-item">
+                            <img src="Secure Coding Practices.png" alt="Secure Coding Practices" class="cert-thumbnail">
+                            <div class="cert-info">
+                                <h4>Secure Coding Practices</h4>
+                                <span class="cert-date">University of California, Davis • October 2025</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.credly.com/badges/f80410a6-8d5d-4bad-a87d-fc9e4e2c03ea/linked_in_profile" target="_blank" class="cert-item-link">
+                        <div class="cert-item">
+                            <img src="CCNAENSA__1_.png" alt="CCNA Certificate" class="cert-thumbnail">
+                            <div class="cert-info">
+                                <h4>CCNA: Enterprise Networking, Security, and Automation</h4>
+                                <span class="cert-date">August 2025</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/7FOKJO5OTMRW" target="_blank" class="cert-item-link">
+                        <div class="cert-item">
+                            <img src="Ethical Hacking.png" alt="Ethical Hacking" class="cert-thumbnail">
+                            <div class="cert-info">
+                                <h4>Ethical Hacking</h4>
+                                <span class="cert-date">LearnKartS • August 2025</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/0KJ2CZ8JMID8" target="_blank" class="cert-item-link">
+                        <div class="cert-item">
+                            <img src="Emerging Technologies.png" alt="Emerging Technologies" class="cert-thumbnail">
+                            <div class="cert-info">
+                                <h4>Emerging Technologies: From Smartphones to IoT to Big Data</h4>
+                                <span class="cert-date">Yonsei University • August 2025</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.coursera.org/account/accomplishments/professional-cert/CJFGO5A4GUKK" target="_blank" class="cert-item-link">
+                        <div class="cert-item">
+                            <img src="Google Cybersecurity.png" alt="Google Cybersecurity" class="cert-thumbnail">
+                            <div class="cert-info">
+                                <h4>Google Cybersecurity</h4>
+                                <span class="cert-date">June 2025</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/K60BSYU5XMMS" target="_blank" class="cert-item-link">
+                        <div class="cert-item">
+                            <img src="Certified in Cybersecurity.png" alt="Certified in Cybersecurity" class="cert-thumbnail">
+                            <div class="cert-info">
+                                <h4>Certified in Cybersecurity (ISC2)</h4>
+                                <span class="cert-date">June 2025</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section fade-in">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <p class="section-subtitle">My technical skills and professional competencies</p>
+            
+            <!-- Programming Languages -->
+            <div class="skill-category-header">
+                <h3><i class="fas fa-code"></i> Programming Languages</h3>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fab fa-php"></i>
+                    </div>
+                    <span>PHP</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-copyright"></i>
+                    </div>
+                    <span>C++</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <span>Java</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <span>Python</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <span>SQL</span>
+                </div>
+            </div>
+
+            <!-- Database & Tools -->
+            <div class="skill-category-header">
+                <h3><i class="fas fa-server"></i> Database & Management</h3>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <span>MySQL</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <span>Oracle Database</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <span>MySQL Workbench</span>
+                </div>
+            </div>
+
+            <!-- Development Tools -->
+            <div class="skill-category-header">
+                <h3><i class="fas fa-laptop-code"></i> Development Tools & IDEs</h3>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <span>IntelliJ IDEA</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <span>Eclipse</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <span>NetBeans IDE</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <span>VS Code</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-file-code"></i>
+                    </div>
+                    <span>Dev-C++</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-edit"></i>
+                    </div>
+                    <span>Notepad++</span>
+                </div>
+            </div>
+
+            <!-- Cybersecurity & Security Tools -->
+            <div class="skill-category-header">
+                <h3><i class="fas fa-shield-alt"></i> Cybersecurity & Security Tools</h3>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <span>Burp Suite</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-user-secret"></i>
+                    </div>
+                    <span>OWASP ZAP</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fab fa-docker"></i>
+                    </div>
+                    <span>Docker</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <span>Penetration Testing</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <span>Vulnerability Assessment</span>
+                </div>
+            </div>
+
+            <!-- Design & Other Tools -->
+            <div class="skill-category-header">
+                <h3><i class="fas fa-palette"></i> Design & Other Tools</h3>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fab fa-figma"></i>
+                    </div>
+                    <span>Figma</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <span>GitHub</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                    </div>
+                    <span>GitHub Pages</span>
+                </div>
+            </div>
+
+            <!-- Cloud & Infrastructure -->
+            <div class="skill-category-header">
+                <h3><i class="fas fa-cloud"></i> Cloud Computing & Infrastructure</h3>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <span>Oracle Cloud Infrastructure</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <span>AI & Machine Learning</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <span>DevOps</span>
+                </div>
+            </div>
+
+            <!-- Professional Skills -->
+            <div class="skill-category-header">
+                <h3><i class="fas fa-lightbulb"></i> Professional Skills</h3>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <span>System Maintenance</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <span>Troubleshooting</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <span>Hardware Setup</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <span>Problem Solving</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-item-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <span>Analytical Thinking</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section id="leadership" class="leadership section fade-in">
+        <div class="container">
+            <h2 class="section-title">Leadership & Activities</h2>
+            <p class="section-subtitle">My contributions to community and professional development</p>
+            <div class="leadership-card">
+                <div class="leadership-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="leadership-content">
+                    <h3>St. John's Institute Robotics Club</h3>
+                    <h4>Club President</h4>
+                    <p class="leadership-date"><i class="fas fa-calendar-alt"></i> August 2021 – August 2022</p>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Tindalo Ave, Bacolod City, Negros Occidental</p>
+                    <ul class="leadership-responsibilities">
+                        <li>Led the Robotics Club, coordinating projects, mentoring members, and managing events and activities</li>
+                        <li>Oversaw robot design and programming initiatives, promoting teamwork, technical skills, and problem-solving</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="leadership-card" style="margin-top: 2rem;">
+                <div class="leadership-icon">
+                    <i class="fas fa-user-secret"></i>
+                </div>
+                <div class="leadership-content">
+                    <h3>Mapúa University</h3>
+                    <h4>Seminar on Hacking</h4>
+                    <p class="leadership-date"><i class="fas fa-calendar-alt"></i> November 2025</p>
+                    <p class="location"><i class="fas fa-map-marker-alt"></i> Makati City, Metro Manila</p>
+                    <ul class="leadership-responsibilities">
+                        <li>Participated in a mini Capture the Flag (CTF) challenge focused on basic exploitation and problem-solving.</li>
+                        <li>Learned core concepts in ethical hacking, vulnerability identification, and secure coding practices.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section fade-in">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Feel free to reach out through any of these channels</p>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <a href="mailto:zachdomingojavellana@gmail.com" target="_blank">zachdomingojavellana@gmail.com</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/francis-zachary-domingo-684795321/" target="_blank">Connect with me</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/sundaevice" target="_blank">View my repositories</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Phone</h3>
+                    <a href="tel:+639326977891">+63 932 697 7891</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Location</h3>
+                    <p>Ecoville, Makati City<br>Metro Manila, 1205</p>
+                </div>
+            </div>
+            <p class="references-note"><em>References Available Upon Request</em></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Francis Zachary Domingo. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
+
